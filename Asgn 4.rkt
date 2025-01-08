@@ -359,10 +359,6 @@
 (check-exn (regexp (regexp-quote "numargs")) (lambda () (top-interp '((() => 7) 10))))
 
 
-(parse '(bind
-         (=> = "")
-         "World"))
-
 
 
 
