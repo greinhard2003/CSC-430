@@ -1,5 +1,7 @@
-This repo contains various iterations of my own programming language implemented using the Racket language.
-All versions have a parser to generate the abstract syntax and an interpreter to evaluate the abstract syntax
+This repo contains various iterations of my own programming language implemented using the Racket language.  
+All versions have a parser to generate the abstract syntax and an interpreter to evaluate the abstract syntax.  
+The concrete syntax uses rackets symbols to allow for easier parsing.  
+Rackets match function made handling various types extremely simple and fast, making it an ideal language to implement my programming language.  
 
 Asgn3:
   - Uses substitution to handle function applications and variable references
