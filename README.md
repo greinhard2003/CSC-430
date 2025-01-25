@@ -40,3 +40,27 @@ Asgn4:
     \<Str\> ::= String  
 
 Asgn5:  
+  - Uses the same framework as Asgn4 but allows for side effects. Bind and seq can be used to create full programs. Seq executes a list of expressions and returns the last value in the list. Bind can be used for creating variables or defining functions in a way similar to other programming languages.
+  - New primitives:
+  - println
+  - read-num
+  - read-str
+  - ++
+  - Bind
+  - Seq
+
+Asgn6:
+  -Now uses a store to hold variable values. Supports variable mutation in addition to arrays and basic array functions.
+  -Variable mutation operator is :=
+  - New primitives:
+  - make-array
+  - array
+  - aref
+  - aset!
+  - substring
+
+Asgn7: 
+  -No longer supports arrays. Now contains a type checking system to prevent from type related errors. Type checking occurs between parsing and interpreting.
+  - New Primitives:
+  - num-eq?
+  - str-eq?
